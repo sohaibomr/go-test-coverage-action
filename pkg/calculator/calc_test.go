@@ -32,3 +32,15 @@ func TestRemainder(t *testing.T) {
 		t.Error("5 % 2 did not equal 1")
 	}
 }
+
+func TestSquare(t *testing.T) {
+	if Square(2) != 4 {
+		t.Error("2 * 2 did not equal 4")
+	}
+}
+
+func TestCube(t *testing.T) {
+	if Cube(2) != 8 {
+		t.Error("2 * 2 * 2 did not equal 8")
+	}
+}

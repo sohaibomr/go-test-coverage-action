@@ -24,3 +24,11 @@ func Divide(a, b int) int {
 func Remainder(a, b int) int {
 	return a % b
 }
+
+func Square(a int) int {
+	return a * a
+}
+
+func Cube(a int) int {
+	return a * a * a
+}
